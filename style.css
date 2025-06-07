@@ -628,3 +628,50 @@ footer {
         left: 21px;
     }
 }
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero-buttons .btn {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .contact-info-grid,
+    .skills-grid,
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-item {
+        padding-left: 50px;
+        padding-right: 15px;
+    }
+
+    .timeline::after {
+        left: 25px;
+    }
+
+    .timeline-item::after {
+        left: 15px;
+    }
+
+    .education-card {
+        margin-bottom: 1.5rem;
+    }
+}
