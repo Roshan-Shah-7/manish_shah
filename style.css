@@ -640,7 +640,7 @@ p {
 /* Expertise Section */
 .expertise-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, minmax(280px, 1fr));
     gap: 2rem;
     margin-bottom: 4rem;
 }
@@ -708,58 +708,6 @@ p {
     border-radius: 50px;
     font-size: 0.8rem;
     font-weight: 500;
-}
-
-.languages-section {
-    background: white;
-    padding: 3rem;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-}
-
-.languages-title {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--dark);
-}
-
-.languages-container {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.language-item {
-    margin-bottom: 1.5rem;
-}
-
-.language-info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
-}
-
-.language-name {
-    font-weight: 600;
-    color: var(--dark);
-}
-
-.language-level {
-    color: var(--secondary);
-    font-weight: 600;
-}
-
-.language-bar {
-    height: 8px;
-    background: var(--light);
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.language-progress {
-    height: 100%;
-    background: var(--gradient);
-    border-radius: 4px;
-    transition: width 1.5s ease;
 }
 
 /* Education Section */
